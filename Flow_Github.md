@@ -60,12 +60,10 @@ Pour s'entrainer
 
 * [La clef du succès !](https://try.github.io) !! Et c'est validé par Github
 
-<<<<<<< HEAD
 Sur les pull-request :
 * [Le super cadavre-request](https://github.com/simplonco/cadavre-request) fait par Sara
-=======
+
 * Une [vidéo d'intro](https://www.youtube.com/watch?v=V6Zo68uQPqE) assez pro, à voir pour approfondir (après la pratique !)
->>>>>>> 2922bb5583acf2cbcb6324797d1288cf7a46ce7d
 
 * [Le github Simplon](https://github.com/simplonco/git-training) propose des exercices
 
