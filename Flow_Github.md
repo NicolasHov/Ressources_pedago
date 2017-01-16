@@ -15,7 +15,7 @@
   * Le contributeur est content.
   * Les autres contributeurs font de même et ainsi de suite.
   * Le gros avantage de Git est donc que les dev peuvent travailler sur le même programme en même temps sans créer de bug. Et de plus on a un historique complet de chaque modif donc on peut donc revenir en arrière à tout moment.
-  * Vous apprendrez ici à récupérer le dépôt distant (en le "clonant" sur votre machine) puis à l'envoyer après modifs sur le dépôt local 'en le "pushant" en ligne).
+  * Vous apprendrez ici à récupérer le dépôt distant (en le "clonant" sur votre machine) puis à l'envoyer après modifs sur le dépôt local (en le "pushant" en ligne).
 
   : )
 
@@ -26,31 +26,29 @@
 * **Pull** (sens inverse de Push)= Pull (tirer) est donc l’opération qui permet de récupérer le contenu d’un dépôt distant dans son dépôt local.
 
 </br>
-**Github**
-est « un service web d'hébergement et de gestion de développement de logiciels, utilisant le logiciel de gestion de versions Git » (wikipédia)
-
-
+**Workflow avec Github**
+est « un service web d'hébergement et de gestion de développement de logiciels, utilisant le logiciel de gestion de versions Git » (wikipédia). Autrement dit, c'est une interface d'utilisation de Git.
 </br>
-Le workflow du développement peut être décomposé en un certains nombres d'étapes :
+Le workflow du développement avec Github peut être décomposé en un certains nombres d'étapes :
 * **1ere étape** : FORK </br>
 on créé une copie du repo dans son propre compte github
 
 * **2eme étape** : CLONE </br>
 on clone le repo sur son ordinateur (en local) afin de pouvoir travailler dessus
 
-* **3eme étape** : on ouvre dans Atom et on édite le fichier
+* **3eme étape** : on ouvre dans son IDE et on édite le fichier
 
 * **4eme étape** : ADD </br>
-on ajoute à l'index le nouveau dossier/fichier l(index est )
+on ajoute à l'index le nouveau dossier/fichier
 
 * **5eme étape** : COMMIT </br>
-on créé un commit (un noeud) dans l'arborescence, associé à un message (comme "Update", ou "Added doc.java",...)
+on créé un commit (un noeud) dans l'arborescence, associé à un message (comme "Update", ou "Added doc.js",...)
 
 * **6eme étape** : PUSH </br>
 on "push" son dépôt local sur un dépôt distant (sur Github)
 
 * **7eme étape** : PULL REQUEST </br>
-on fait une "requête" pour que le propriétaire du dépôt distant "tire"/"récupère" le contenu qu'on a "pushé", c'est à dire qu'il récupère le fichier avec nos modifications (et à terme qu'il l'intègre dans le dépôt principal).
+on fait une "requête" pour que le propriétaire du dépôt distant "récupère" notre super contenu qu'on a "pushé", c'est à dire qu'il récupère le fichier avec nos modifications (et à terme qu'il l'intègre dans le dépôt principal).
 
 </br>
 **Ressources**
@@ -62,7 +60,7 @@ Pour s'entrainer en ligne de commandes :
 
 * [La clef du succès](https://try.github.io) !! Et c'est validé par Github (et par moi !)
 
-* Une [vidéo d'intro](https://www.youtube.com/watch?v=V6Zo68uQPqE) assez claire
+* Une [vidéo d'intro](https://www.youtube.com/watch?v=V6Zo68uQPqE) assez pro, à voir pour approfondir (après la pratique !)
 
 
 </br>
