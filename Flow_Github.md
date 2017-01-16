@@ -58,12 +58,16 @@ on fait une "requête" pour que le propriétaire du dépôt distant "tire"/"réc
 NB : Pour utiliser git sur windows, on peut télécharger [Git for windows](https://git-for-windows.github.io/) qui contient à la fois  l'outil Git Bash (qui émule les lignes de commandes linux) et Git GUI (pour faire la même chose sur une interface).
 
 
-Pour s'entrainer en ligne de commandes :
+Pour s'entrainer
 
-* [La clef du succès](https://try.github.io) !! Et c'est validé par Github (et par moi !)
+* [La clef du succès !](https://try.github.io) !! Et c'est validé par Github
 
-* Une [vidéo d'intro](https://www.youtube.com/watch?v=V6Zo68uQPqE) assez claire
+Sur les pull-request :
+* [Le super cadavre-request](https://github.com/simplonco/cadavre-request) fait par Sara
 
+* [Le github Simplon](https://github.com/simplonco/git-training) propose des exercices
+
+* [Une vidéo d'intro](https://www.youtube.com/watch?v=V6Zo68uQPqE) assez claire
 
 </br>
 
