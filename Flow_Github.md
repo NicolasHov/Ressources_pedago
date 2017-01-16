@@ -1,11 +1,12 @@
 # Git et Github : apprendre le workflow
 
+![Git](git.png)
 
 **Git** est ce qu’on appelle un outil de gestion de versions (Version Control Software en anglais). D'après Wikipédia :
 
 « Un logiciel de gestion de versions agit sur une arborescence de fichiers afin de conserver toutes les versions des fichiers, ainsi que les différences entre les fichiers. »
 
-> En quelques mots :
+## En quelques mots :
   * En très très gros, Git est un arbre où chaque modif du fichier correspond à une branche (il faut surtout visualiser les "noeuds" de chaque branche).
   * La "tête" de l'arbre correspond à la dernière version du fichier.
   * On peut travailler en collaboratif sur Git grâce à la plateforme colaborative Github.
@@ -19,14 +20,14 @@
 
   : )
 
->Un petit lexique :
+## Un petit lexique :
 * **Dépôt** (ou repo pour repository en anglais) = Un dépôt est un dossier qui porte le nom .git. C'est là que Git va stocker toutes les informations en rapport avec votre projet comme la liste des commits effectués, la liste des branches, etc.
 * **Branche** = Une branche peut être vue comme une déviation de votre projet. Cela permet par exemple à plusieurs personnes travaillant sur un même projet de développer des fonctionnalités différentes sans que leurs modifications respectives ne créent de conflits. Un même commit peut ainsi faire partie de plusieurs branches s'il est le point de départ de celles-ci.
 * **Push** = Push (pousser) est l’opération qui consiste à envoyer le contenu de son dépôt sur un autre dépôt situé généralement sur une machine distante comme un serveur (par exmple sur Github), de façon à pouvoir le récupérer plus tard depuis une autre machine. Cela permet également à plusieurs personnes de posséder une copie des fichiers sur sa machine ainsi que d’une copie en ligne à partir de laquelle chaque membre peut contribuer. Mais cela implique de pouvoir récupérer les modifications des autres pour ne pas les écraser.
 * **Pull** (sens inverse de Push)= Pull (tirer) est donc l’opération qui permet de récupérer le contenu d’un dépôt distant dans son dépôt local.
 
 </br>
-**Workflow avec Github**
+## Workflow avec Github
 est « un service web d'hébergement et de gestion de développement de logiciels, utilisant le logiciel de gestion de versions Git » (wikipédia). Autrement dit, c'est une interface d'utilisation de Git.
 </br>
 Le workflow du développement avec Github peut être décomposé en un certains nombres d'étapes :
@@ -51,7 +52,7 @@ on "push" son dépôt local sur un dépôt distant (sur Github)
 on fait une "requête" pour que le propriétaire du dépôt distant "récupère" notre super contenu qu'on a "pushé", c'est à dire qu'il récupère le fichier avec nos modifications (et à terme qu'il l'intègre dans le dépôt principal).
 
 </br>
-**Ressources**
+## Ressources
 
 NB : Pour utiliser git sur windows, on peut télécharger [Git for windows](https://git-for-windows.github.io/) qui contient à la fois  l'outil Git Bash (qui émule les lignes de commandes linux) et Git GUI (pour faire la même chose sur une interface).
 
